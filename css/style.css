@@ -1,0 +1,15 @@
+#play-area {
+    background-color: black;
+    width: 400px;
+    height:400px;
+}
+
+#player-controlled {
+    width: 30px;
+    height: 20px;
+    postion: realitive;
+    bottom: 50px;
+    top: 200px;
+    background-color: purple;
+}
+
