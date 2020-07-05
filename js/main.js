@@ -133,12 +133,3 @@ let shipsBattle = (ship1, ship2) => {
     }
   };
   
-  let checkUserPrompt = () => {
-    let responseUpperCase = game.userResponse.toUpperCase();
-    if (responseUpperCase === "ATTACK") {
-      shipsBattle(ussSchwartz, alienShips[game.targetShip]);
-    } else if (responseUpperCase === "RETREAT") {
-      alert("Game Over! You Live to Fight Again Another Day.");
-    }
-  };
-  
